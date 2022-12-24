@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/libs/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>ФИНАНСОВЫЕ ОТЧЕТЫ</title>
+</head>
+<body>
+    <!--header mobile-->
+    <div class="wrap-container-header-mobile">
+        <div class="header-menu_list">
+            <ul>
+                <li class="header-top-menu_bottom-item header-link-item active"><a class="menu-link" href="http://autolombard/#advantage">Преимущества</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" href="http://autolombard/#accept">Мы принимаем</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" href="http://autolombard/#working">Схема работы</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" href="http://autolombard/#terms">Условия</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" href="http://autolombard/#my-client">Клиенты</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" href="/about.html">О нас</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" href="/agreements.html">Договора</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" href="/reports.html">Отчёты</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" data-goto=".page-section-7" href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-mob-top-menu">
+                        <div class="burger-menu">
+                            <span></span>
+                        </div>
+                        <div class="header-mob-top-menu_logo">
+                            <a href="/index.html"><img width="120" src="/img/Logo.png" alt="logo"></a>
+                        </div>
+                        <!--popup-contact-------------------------------------------------------->
+                        <div class="menu-link_popup">
+                            <div class="btn-info-company">
+                                <svg class="btn-inf-map mr-2" stroke="#353535" width="25" height="25" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13 13.8125C14.7949 13.8125 16.25 12.3574 16.25 10.5625C16.25 8.76757 14.7949 7.3125 13 7.3125C11.2051 7.3125 9.75 8.76757 9.75 10.5625C9.75 12.3574 11.2051 13.8125 13 13.8125Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21.125 10.5625C21.125 17.875 13 23.5625 13 23.5625C13 23.5625 4.875 17.875 4.875 10.5625C4.875 8.40762 5.73102 6.34099 7.25476 4.81726C8.77849 3.29352 10.8451 2.4375 13 2.4375C15.1549 2.4375 17.2215 3.29352 18.7452 4.81726C20.269 6.34099 21.125 8.40762 21.125 10.5625V10.5625Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <svg class="btn-inf-phone" stroke="#353535" width="26" height="26" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.9623 4.65405C18.3397 5.02449 19.5956 5.75034 20.6041 6.75891C21.6127 7.76747 22.3386 9.02334 22.709 10.4007"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16.1209 7.79407C16.9474 8.01633 17.7009 8.45184 18.306 9.05698C18.9112 9.66212 19.3467 10.4156 19.5689 11.2421"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.1636 13.2681C11.0064 14.9912 12.4031 16.3815 14.13 17.2164C14.2563 17.2763 14.3961 17.3023 14.5355 17.2917C14.6749 17.2812 14.8092 17.2345 14.9251 17.1563L17.4677 15.4608C17.5802 15.3858 17.7096 15.34 17.8442 15.3277C17.9788 15.3153 18.1143 15.3367 18.2386 15.39L22.9955 17.4286C23.1571 17.4973 23.292 17.6166 23.3799 17.7685C23.4678 17.9205 23.5039 18.097 23.4828 18.2713C23.3324 19.4478 22.7584 20.5291 21.8682 21.3129C20.9779 22.0966 19.8326 22.529 18.6465 22.5291C14.9832 22.5291 11.4699 21.0738 8.87957 18.4835C6.28923 15.8931 4.83398 12.3799 4.83398 8.71656C4.83405 7.53049 5.26643 6.3851 6.05018 5.49487C6.83392 4.60464 7.91528 4.03061 9.09179 3.88026C9.26608 3.85916 9.44251 3.89529 9.5945 3.98318C9.74648 4.07108 9.86578 4.20598 9.93442 4.36758L11.9749 9.12861C12.0276 9.25176 12.0491 9.38605 12.0375 9.51952C12.0258 9.65299 11.9813 9.7815 11.9079 9.89361L10.2183 12.4753C10.1414 12.5914 10.0959 12.7255 10.0863 12.8645C10.0767 13.0035 10.1034 13.1425 10.1636 13.2681V13.2681Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="pop-inf-phone">
+                                    <div class="pop-inf-txt">
+                                        <a href="tel:+77476191499">+7 (747) -619 ‒14 ‒99</a>
+                                        <a href="tel:+77476191499">+7 (747) -619 ‒14 ‒99</a>
+                                        <a href="tel:+77476191499">+7 (747) -619 ‒14 ‒99</a>
+                                        <div class="pop-inf-txt-soc">
+                                            <a target="_blank" href="#"><img src="/img/icon/telegram-logo.svg" alt="ico telegram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/InstagramLogo.svg" alt="ico instagram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/whatsapp.svg" alt="ico watsap"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pop-inf-map">
+                                    <div class="pop-inf-txt">
+                                        <p>
+                                            улица Керуентау, 2/2, Мамыр м-н, Ауэзовский район, Алматы
+                                        </p>
+                                        <p>
+                                            3-й микрорайон, 20а,
+                                            3 м-н, Ауэзовский район, Алматы
+                                        </p>
+                                        <p>
+                                            пр-т Райымбека, 239/2 1 этаж
+                                            Жетысуский район, Алматы
+                                        </p>
+                                        <div class="pop-inf-txt-soc">
+                                            <a target="_blank" href="#"><img src="/img/icon/telegram-logo.svg" alt="ico telegram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/InstagramLogo.svg" alt="ico instagram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/whatsapp.svg" alt="ico watsap"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--popup-contact--------------------------------------------------------->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header mobile-->
+    <!--header-->
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header_content">
+                        <div class="header_logo">
+                            <a href="#"><img src="/img/Logo.png" alt="logo Auto-Lombard"></a>
+                        </div>
+                        <div class="header_menu">
+                            <ul>
+                                <li class="link"><a data-goto=".page-section-1" class="menu-link" href="#">Преимущества</a></li>
+                                <li class="link"><a class="menu-link" href="/about.html">О нас</a>
+                                    <ul>
+                                        <li><a class="menu-link" href="/agreements.html">Договора</a></li>
+                                        <li><a class="menu-link" href="/reports.html">Отчёты</a></li>
+                                        <li><a class="menu-link" href="/about.html">О компаний</a></li>
+                                    </ul>
+                                </li>
+                                <li class="link"><a data-goto=".page-section-2" class="menu-link" href="#">Мы принимаем</a></li>
+                                <li class="link"><a data-goto=".page-section-3" class="menu-link" href="#">Схема работы</a></li>
+                                <li class="link"><a data-goto=".page-section-4" class="menu-link" href="#">Условия</a></li>
+                                <li class="link"><a data-goto=".page-section-5" class="menu-link" href="#">Клиенты</a></li>
+                            </ul>
+                        </div>
+                        <div class="header_phone">
+                            <img class="ico-WhatsApp" src="/img/icon/WhatsApp.png" alt="">
+                            <a class="header_phone_tel" href="https://wa.me/77476191499">+7 (747)-619‒14‒99</a>
+                        </div>
+                        <!--popup-contact-------------------------------------------------------->
+                        <div class="menu-link_popup">
+                            <div class="info-company">
+                                <a class="header-instagram-link" target="_blank" href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="stroke-inst" d="M12 15.75C14.0711 15.75 15.75 14.0711 15.75 12C15.75 9.92893 14.0711 8.25 12 8.25C9.92893 8.25 8.25 9.92893 8.25 12C8.25 14.0711 9.92893 15.75 12 15.75Z" stroke="#353535" stroke-width="2" stroke-miterlimit="10"/>
+                                        <path class="stroke-inst" d="M16.125 3.375H7.875C5.38972 3.375 3.375 5.38972 3.375 7.875V16.125C3.375 18.6103 5.38972 20.625 7.875 20.625H16.125C18.6103 20.625 20.625 18.6103 20.625 16.125V7.875C20.625 5.38972 18.6103 3.375 16.125 3.375Z" stroke="#353535" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path class="fill-inst" d="M16.875 8.25C17.4963 8.25 18 7.74632 18 7.125C18 6.50368 17.4963 6 16.875 6C16.2537 6 15.75 6.50368 15.75 7.125C15.75 7.74632 16.2537 8.25 16.875 8.25Z" fill="#353535"/>
+                                    </svg>
+                                </a>
+                                <svg class="btn-inf-map btn-inf mr-2" stroke="#353535" width="25" height="25" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13 13.8125C14.7949 13.8125 16.25 12.3574 16.25 10.5625C16.25 8.76757 14.7949 7.3125 13 7.3125C11.2051 7.3125 9.75 8.76757 9.75 10.5625C9.75 12.3574 11.2051 13.8125 13 13.8125Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21.125 10.5625C21.125 17.875 13 23.5625 13 23.5625C13 23.5625 4.875 17.875 4.875 10.5625C4.875 8.40762 5.73102 6.34099 7.25476 4.81726C8.77849 3.29352 10.8451 2.4375 13 2.4375C15.1549 2.4375 17.2215 3.29352 18.7452 4.81726C20.269 6.34099 21.125 8.40762 21.125 10.5625V10.5625Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <svg class="btn-inf-phone btn-inf" stroke="#353535" width="26" height="26" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.9623 4.65405C18.3397 5.02449 19.5956 5.75034 20.6041 6.75891C21.6127 7.76747 22.3386 9.02334 22.709 10.4007"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16.1209 7.79407C16.9474 8.01633 17.7009 8.45184 18.306 9.05698C18.9112 9.66212 19.3467 10.4156 19.5689 11.2421"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.1636 13.2681C11.0064 14.9912 12.4031 16.3815 14.13 17.2164C14.2563 17.2763 14.3961 17.3023 14.5355 17.2917C14.6749 17.2812 14.8092 17.2345 14.9251 17.1563L17.4677 15.4608C17.5802 15.3858 17.7096 15.34 17.8442 15.3277C17.9788 15.3153 18.1143 15.3367 18.2386 15.39L22.9955 17.4286C23.1571 17.4973 23.292 17.6166 23.3799 17.7685C23.4678 17.9205 23.5039 18.097 23.4828 18.2713C23.3324 19.4478 22.7584 20.5291 21.8682 21.3129C20.9779 22.0966 19.8326 22.529 18.6465 22.5291C14.9832 22.5291 11.4699 21.0738 8.87957 18.4835C6.28923 15.8931 4.83398 12.3799 4.83398 8.71656C4.83405 7.53049 5.26643 6.3851 6.05018 5.49487C6.83392 4.60464 7.91528 4.03061 9.09179 3.88026C9.26608 3.85916 9.44251 3.89529 9.5945 3.98318C9.74648 4.07108 9.86578 4.20598 9.93442 4.36758L11.9749 9.12861C12.0276 9.25176 12.0491 9.38605 12.0375 9.51952C12.0258 9.65299 11.9813 9.7815 11.9079 9.89361L10.2183 12.4753C10.1414 12.5914 10.0959 12.7255 10.0863 12.8645C10.0767 13.0035 10.1034 13.1425 10.1636 13.2681V13.2681Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="pop-inf-phone">
+                                    <div class="pop-inf-txt">
+                                        <a href="tel:+77476191499">+7 (747) -619 ‒14 ‒99</a>
+                                        <a href="tel:+77476191499">+7 (747) -619 ‒14 ‒99</a>
+                                        <a href="tel:+77476191499">+7 (747) -619 ‒14 ‒99</a>
+                                        <div class="pop-inf-txt-soc">
+                                            <a target="_blank" href="#"><img src="/img/icon/telegram-logo.svg" alt="ico telegram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/InstagramLogo.svg" alt="ico instagram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/whatsapp.svg" alt="ico watsap"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pop-inf-map">
+                                    <div class="pop-inf-txt">
+                                        <p>
+                                            улица Керуентау, 2/2, Мамыр м-н, Ауэзовский район, Алматы
+                                        </p>
+                                        <p>
+                                            3-й микрорайон, 20а,
+                                            3 м-н, Ауэзовский район, Алматы
+                                        </p>
+                                        <p>
+                                            пр-т Райымбека, 239/2 1 этаж
+                                            Жетысуский район, Алматы
+                                        </p>
+                                        <div class="pop-inf-txt-soc">
+                                            <a target="_blank" href="#"><img src="/img/icon/telegram-logo.svg" alt="ico telegram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/InstagramLogo.svg" alt="ico instagram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/whatsapp.svg" alt="ico watsap"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--popup-contact--------------------------------------------------------->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--header-->
+
+
+    <!--reports-->
+    <div class="reports">
+        <div class="reports_links">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="reports_links-cont">
+                            <p>Главная<span class="reports_links-delimetr">></span><span class="reports_links-title">Финансовые отчеты</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="reports_title">
+                        <h2>ФИНАНСОВЫЕ ОТЧЕТЫ</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reports_block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="reports_content">
+                            <div class="reports_open">
+                                <img src="/img/icon/chevron-open.svg" alt="">
+                            </div>
+                            <h2>2021</h2>
+                            <div class="reports_content-flex">
+                                <div class="reports_content-flex-item">
+                                    <p>Отчет о финансовом положении (Бухгалтерский баланс) 2021</p>
+                                    <a href="#"><img src="/img/icon/DownloadSimple.svg" alt="">Скачать отчет</a>
+                                </div>
+                                <div class="reports_content-flex-item">
+                                    <p>Отчет о движении денежных средств (Прямой метод) 2021</p>
+                                    <a href="#"><img src="/img/icon/DownloadSimple.svg" alt="">Скачать отчет</a>
+                                </div>
+                                <div class="reports_content-flex-item">
+                                    <p>Отчет о прибылях и убытках 2021</p>
+                                    <a href="#"><img src="/img/icon/DownloadSimple.svg" alt="">Скачать отчет</a>
+                                </div>
+                                <div class="reports_content-flex-item">
+                                    <p>Отчет об изменении в Капитале 2021</p>
+                                    <a href="#"><img src="/img/icon/DownloadSimple.svg" alt="">Скачать отчет</a>
+                                </div>
+                                <div class="reports_content-flex-item">
+                                    <p>Пояснительная записка 2021</p>
+                                    <a href="#"><img src="/img/icon/DownloadSimple.svg" alt="">Скачать отчет</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--reports-->
+
+    <!--certificates-->
+    <div class="certificates">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mb-3">
+                    <div class="certificate-slider">
+                        <div class="sertificate-sl-itm">
+                            <a data-fancybox="gallery" href="/img/licenzi.jpg">
+                                <img class="pop-preview-image"  src="/img/licenzi.jpg" alt="sertificate image">
+                            </a>
+                        </div>
+                        <div class="sertificate-sl-itm">
+                            <a data-fancybox="gallery" href="/img/licenzi.jpg">
+                                <img class="pop-preview-image"  src="/img/licenzi.jpg" alt="sertificate image">
+                            </a>
+                        </div>
+                        <div class="sertificate-sl-itm">
+                            <a data-fancybox="gallery" href="/img/licenzi.jpg">
+                                <img class="pop-preview-image"  src="/img/licenzi.jpg" alt="sertificate image">
+                            </a>
+                        </div>
+                        <div class="sertificate-sl-itm">
+                            <a data-fancybox="gallery" href="/img/licenzi.jpg">
+                                <img class="pop-preview-image"  src="/img/licenzi.jpg" alt="sertificate image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--certificates-->
+    <!--my-maps-->
+    <div class="my-maps">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="my-maps_title">
+                        <h2>Где мы находимся?</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my-maps_map">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="my-maps_content">
+                            <div class="my-maps-col my-maps_map-img">
+                                <img width="100%" src="/img/map-image.jpg" alt="">
+                            </div>
+                            <div class="my-maps-col my-maps_vidjet-map">
+                                <a class="dg-widget-link" href="http://2gis.kz/almaty/profiles/70000001061220039,70000001041687856,70000001039766998/center/76.86344146728517,43.23044585977809/zoom/12?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Алматы</a><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":'100%',"height":'100%',"borderColor":"#a3a3a3","pos":{"lat":43.23044585977809,"lon":76.86344146728517,"zoom":12},"opt":{"city":"almaty"},"org":[{"id":"70000001061220039"},{"id":"70000001041687856"},{"id":"70000001039766998"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--my-maps-->
+    <!--footer-->
+    <section class="footer page-section-7">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer_content">
+                        <div class="footer_logo">
+                            <img src="/img/Logo.png" alt="logo ">
+                            <div class="footer_logo-soc">
+                                <a target="_blank" href="#">Мы в социальных сетях: <img src="/img/icon/InstagramLogo.svg" alt="link image instagram"></a>
+                            </div>
+                        </div>
+                        <div class="footer_address">
+                            <div class="footer_address-itm">
+                                <img src="/img/icon/MapPin.svg" alt="ico map">
+                                <p>улица Керуентау, 2/2, Мамыр м-н, Ауэзовский район, Алматы</p>
+                            </div>
+                            <div class="footer_address-itm">
+                                <img src="/img/icon/MapPin.svg" alt="ico map">
+                                <p>пр-т Райымбека, 239/2 1 этаж Жетысуский район, Алматы</p>
+                            </div>
+                            <div class="footer_address-itm">
+                                <img src="/img/icon/MapPin.svg" alt="ico map">
+                                <p>3-й микрорайон, 20а, 3 м-н, Ауэзовский район, Алматы</p>
+                            </div>
+                            <div class="footer_address-itm">
+                                <a href="tel:+77078147829">+7 707-814‒78‒29</a>
+                            </div>
+                        </div>
+                        <div class="footer_submit">
+                            <div class="footer_submit-whatsApp">
+                                <img class="ico-WhatsApp" src="/img/icon/WhatsApp.png" alt="link image WhatsApp">
+                                <a class="header_phone_tel" href="https://wa.me/77476191499">+7 (747)-619‒14‒99</a>
+                            </div>
+                            <a class="btn-all btn-popup-manager">Оценить имущество</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer_menu-cont">
+                            <ul class="ul-one">
+                                <li><a href="http://autolombard/#advantage" class="menu-link">Преимущества</a></li>
+                                <li><a href="http://autolombard/#accept" class="menu-link">Мы принимаем</a></li>
+                                <li><a href="http://autolombard/#working" class="menu-link">Схема работы</a></li>
+                                <li><a href="http://autolombard/#terms" class="menu-link">Условия</a></li>
+                                <li><a href="http://autolombard/#my-client" class="menu-link">Клиенты</a></li>
+                                <li><a href="http://autolombard/#certificates" class="menu-link">Сертификаты</a></li>
+                            </ul>
+                            <ul class="ul-two">
+                                <li><a href="/reports.html">Финансовая отчетность</a></li>
+                                <li><a href="/agreements.html">Договора</a></li>
+                                <li><a href="/about.html">О нас</a></li>
+                                <li><a target="_blank" href="/img/licenzi.jpg">Лицензия</a></li>
+                                <li><a target="_blank" href="#">Отчеты</a></li>
+                                <li><a target="_blank" href="#">Бухгалтерский баланс</a></li>
+                            </ul>
+                            <ul class="ul-three">
+                                <li><a target="_blank" href="#">Правила предоставления микрокредитов</a></li>
+                                <li><a target="_blank" href="#">Стандартный Договор до 50 МРП LLP</a></li> 
+                                <li><a target="_blank" href="#">Стандартный Договор до 50МРП ТМ</a></li> 
+                                <li><a target="_blank" href="#">Стандартный Договор свыше 50 МРП LLP</a></li>
+                                <li><a target="_blank" href="#">Стандартный Договор свыше 50 МРП ТМ</a></li>   
+                                <li><a target="_blank" href="#">Политика конфиденциальности</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_licenzi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer_licenzi-text">
+                            <p>
+                                Лицензия:  02.21.0045.L. от 26.03.2021<br>
+                                Настоящая лицензия дает право на осуществление микрофинансовой деятельности Деятельность ломбарда ТOO "Тех авто Ломбард"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyraite-bl">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer_copyraite">
+                            <span>© 2022, «ТехАвтоЛомбард»</span>
+                            <div class="web-studio">
+                                <span>© Все права защищены</span>
+                                <a target="_blank" href="https://xn--b1adeadlc3bdjl.kz/sozdanie-sajtov/lendingi/"><span>Разработка веб студии</span><img width="100" src="/img/prodvijenie-web.png" alt="prodvijenie.kz"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+
+
+
+
+
+    <!----container to Top------->
+    <div class="to-top">
+        <a  href="#" class="menu-link" data-goto=".offer"><img width="25" src="/img/icon/To-top-ico.svg" alt="icon to top"></a>
+    </div>
+    <!----container to Top------->
+    <!--------container window popup manager--------->
+    <div class="popup-manager">
+        <div class="window-popup">
+            <div data-popup=".popup-manager" class="btn-close">
+                <svg class="close-svg" stroke="#414042" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L16 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 1L1 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <p>Оставьте заявку и наш менеджер свяжется с Вами в течение 5 минут</p>
+            <form action="#">
+                <input type="text" placeholder="Ваше имя" required>
+                <input class="inp-tel phone" type="tel" placeholder="+7-(___)-___-__-__" required>
+                <img src="/img/submit-img.png" alt="submit image">
+                <button type="submit" class="btn-all">Оценить имущество</button>
+            </form>
+        </div>
+    </div>
+    <!--------container window popup manager--------->
+    <!--------container window popup accepted--------->
+    <div class="popup-accepted">
+        <div class="window-popup">
+            <div data-popup=".popup-accepted" class="btn-close">
+                <svg class="close-svg" stroke="#414042" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L16 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 1L1 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <p>Спасибо Ваша<br> заявка принята!</p>
+            <img width="250" src="/img/accept-image.png" alt="accept icon">
+        </div>
+    </div>
+    <!--------container window popup accepted--------->
+    
+
+
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="/libs/jquery/jquery.maskedinput.min.js"></script>
+    <script src="/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/libs/slick/slick.min.js"></script>
+    <script src="/libs/fancybox/jquery.fancybox.min.js"></script>
+    <script src="/libs/animate/ScrollTrigger.js"></script>
+    <script src="/libs/animate/gsap.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

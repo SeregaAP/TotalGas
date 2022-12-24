@@ -1,0 +1,14 @@
+[{
+    "caption": "ссылка",
+    "fields": [{
+        "field": "адрес",
+        "url": "link"
+      },
+      {
+      "field": "image",
+      "caption": "Image",
+      "inputTVtype": "image"
+    }
+    ]
+  }
+]

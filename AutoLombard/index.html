@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/libs/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="/libs/ModalVideofix-master/modal-video.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Главная</title>
+</head>
+<body>
+    <!--header mobile-->
+    <div class="wrap-container-header-mobile">
+        <div class="header-menu_list">
+            <ul>
+                <li class="header-top-menu_bottom-item header-link-item active"><a class="menu-link" data-goto=".page-section-1" href="#">Преимущества</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" data-goto=".page-section-2" href="#">Мы принимаем</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" data-goto=".page-section-3" href="#">Схема работы</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" data-goto=".page-section-4" href="#">Условия</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" data-goto=".page-section-5" href="#">Клиенты</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" href="/about.html">О нас</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" href="/agreements.html">Договора</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" href="/reports.html">Отчёты</a></li>
+                <li class="header-top-menu_bottom-item header-link-item"><a class="menu-link" data-goto=".page-section-7" href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-mob-top-menu">
+                        <div class="burger-menu">
+                            <span></span>
+                        </div>
+                        <div class="header-mob-top-menu_logo">
+                            <a href="#"><img width="120" src="/img/Logo.png" alt="logo"></a>
+                        </div>
+                        <!--popup-contact-------------------------------------------------------->
+                        <div class="menu-link_popup">
+                            <div class="btn-info-company">
+                                <svg class="btn-inf-map mr-2" stroke="#353535" width="25" height="25" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13 13.8125C14.7949 13.8125 16.25 12.3574 16.25 10.5625C16.25 8.76757 14.7949 7.3125 13 7.3125C11.2051 7.3125 9.75 8.76757 9.75 10.5625C9.75 12.3574 11.2051 13.8125 13 13.8125Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21.125 10.5625C21.125 17.875 13 23.5625 13 23.5625C13 23.5625 4.875 17.875 4.875 10.5625C4.875 8.40762 5.73102 6.34099 7.25476 4.81726C8.77849 3.29352 10.8451 2.4375 13 2.4375C15.1549 2.4375 17.2215 3.29352 18.7452 4.81726C20.269 6.34099 21.125 8.40762 21.125 10.5625V10.5625Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <svg class="btn-inf-phone" stroke="#353535" width="26" height="26" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.9623 4.65405C18.3397 5.02449 19.5956 5.75034 20.6041 6.75891C21.6127 7.76747 22.3386 9.02334 22.709 10.4007"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16.1209 7.79407C16.9474 8.01633 17.7009 8.45184 18.306 9.05698C18.9112 9.66212 19.3467 10.4156 19.5689 11.2421"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.1636 13.2681C11.0064 14.9912 12.4031 16.3815 14.13 17.2164C14.2563 17.2763 14.3961 17.3023 14.5355 17.2917C14.6749 17.2812 14.8092 17.2345 14.9251 17.1563L17.4677 15.4608C17.5802 15.3858 17.7096 15.34 17.8442 15.3277C17.9788 15.3153 18.1143 15.3367 18.2386 15.39L22.9955 17.4286C23.1571 17.4973 23.292 17.6166 23.3799 17.7685C23.4678 17.9205 23.5039 18.097 23.4828 18.2713C23.3324 19.4478 22.7584 20.5291 21.8682 21.3129C20.9779 22.0966 19.8326 22.529 18.6465 22.5291C14.9832 22.5291 11.4699 21.0738 8.87957 18.4835C6.28923 15.8931 4.83398 12.3799 4.83398 8.71656C4.83405 7.53049 5.26643 6.3851 6.05018 5.49487C6.83392 4.60464 7.91528 4.03061 9.09179 3.88026C9.26608 3.85916 9.44251 3.89529 9.5945 3.98318C9.74648 4.07108 9.86578 4.20598 9.93442 4.36758L11.9749 9.12861C12.0276 9.25176 12.0491 9.38605 12.0375 9.51952C12.0258 9.65299 11.9813 9.7815 11.9079 9.89361L10.2183 12.4753C10.1414 12.5914 10.0959 12.7255 10.0863 12.8645C10.0767 13.0035 10.1034 13.1425 10.1636 13.2681V13.2681Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="pop-inf-phone">
+                                    <div class="pop-inf-txt">
+                                        <a href="tel:+77476191499">+7 (747) -619 ‒14 ‒99</a>
+                                        <a href="tel:+77476191499">+7 (747) -619 ‒14 ‒99</a>
+                                        <a href="tel:+77476191499">+7 (747) -619 ‒14 ‒99</a>
+                                        <div class="pop-inf-txt-soc">
+                                            <a target="_blank" href="#"><img src="/img/icon/telegram-logo.svg" alt="ico telegram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/InstagramLogo.svg" alt="ico instagram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/whatsapp.svg" alt="ico watsap"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pop-inf-map">
+                                    <div class="pop-inf-txt">
+                                        <p>
+                                            улица Керуентау, 2/2, Мамыр м-н, Ауэзовский район, Алматы
+                                        </p>
+                                        <p>
+                                            3-й микрорайон, 20а,
+                                            3 м-н, Ауэзовский район, Алматы
+                                        </p>
+                                        <p>
+                                            пр-т Райымбека, 239/2 1 этаж
+                                            Жетысуский район, Алматы
+                                        </p>
+                                        <div class="pop-inf-txt-soc">
+                                            <a target="_blank" href="#"><img src="/img/icon/telegram-logo.svg" alt="ico telegram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/InstagramLogo.svg" alt="ico instagram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/whatsapp.svg" alt="ico watsap"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--popup-contact--------------------------------------------------------->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header mobile-->
+    <!--header-->
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header_content">
+                        <div class="header_logo">
+                            <a href="#"><img src="/img/Logo.png" alt="logo Auto-Lombard"></a>
+                        </div>
+                        <div class="header_menu">
+                            <ul>
+                                <li class="link"><a data-goto=".page-section-1" class="menu-link" href="#">Преимущества</a></li>
+                                <li class="link"><a class="menu-link" href="/about.html">О нас</a>
+                                    <ul>
+                                        <li><a class="menu-link" href="/agreements.html">Договора</a></li>
+                                        <li><a class="menu-link" href="/reports.html">Отчёты</a></li>
+                                        <li><a class="menu-link" href="/about.html">О компаний</a></li>
+                                    </ul>
+                                </li>
+                                <li class="link"><a data-goto=".page-section-2" class="menu-link" href="#">Мы принимаем</a></li>
+                                <li class="link"><a data-goto=".page-section-3" class="menu-link" href="#">Схема работы</a></li>
+                                <li class="link"><a data-goto=".page-section-4" class="menu-link" href="#">Условия</a></li>
+                                <li class="link"><a data-goto=".page-section-5" class="menu-link" href="#">Клиенты</a></li>
+                            </ul>
+                        </div>
+                        <div class="header_phone">
+                            <img class="ico-WhatsApp" src="/img/icon/WhatsApp.png" alt="">
+                            <a class="header_phone_tel" href="https://wa.me/77476191499">+7 (747)-619‒14‒99</a>
+                        </div>
+                        <!--popup-contact-------------------------------------------------------->
+                        <div class="menu-link_popup">
+                            <div class="info-company">
+                                <a class="header-instagram-link" target="_blank" href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="stroke-inst" d="M12 15.75C14.0711 15.75 15.75 14.0711 15.75 12C15.75 9.92893 14.0711 8.25 12 8.25C9.92893 8.25 8.25 9.92893 8.25 12C8.25 14.0711 9.92893 15.75 12 15.75Z" stroke="#353535" stroke-width="2" stroke-miterlimit="10"/>
+                                        <path class="stroke-inst" d="M16.125 3.375H7.875C5.38972 3.375 3.375 5.38972 3.375 7.875V16.125C3.375 18.6103 5.38972 20.625 7.875 20.625H16.125C18.6103 20.625 20.625 18.6103 20.625 16.125V7.875C20.625 5.38972 18.6103 3.375 16.125 3.375Z" stroke="#353535" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path class="fill-inst" d="M16.875 8.25C17.4963 8.25 18 7.74632 18 7.125C18 6.50368 17.4963 6 16.875 6C16.2537 6 15.75 6.50368 15.75 7.125C15.75 7.74632 16.2537 8.25 16.875 8.25Z" fill="#353535"/>
+                                    </svg>
+                                </a>
+                                <svg class="btn-inf-map btn-inf mr-2" stroke="#353535" width="25" height="25" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13 13.8125C14.7949 13.8125 16.25 12.3574 16.25 10.5625C16.25 8.76757 14.7949 7.3125 13 7.3125C11.2051 7.3125 9.75 8.76757 9.75 10.5625C9.75 12.3574 11.2051 13.8125 13 13.8125Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21.125 10.5625C21.125 17.875 13 23.5625 13 23.5625C13 23.5625 4.875 17.875 4.875 10.5625C4.875 8.40762 5.73102 6.34099 7.25476 4.81726C8.77849 3.29352 10.8451 2.4375 13 2.4375C15.1549 2.4375 17.2215 3.29352 18.7452 4.81726C20.269 6.34099 21.125 8.40762 21.125 10.5625V10.5625Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <svg class="btn-inf-phone btn-inf" stroke="#353535" width="26" height="26" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.9623 4.65405C18.3397 5.02449 19.5956 5.75034 20.6041 6.75891C21.6127 7.76747 22.3386 9.02334 22.709 10.4007"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16.1209 7.79407C16.9474 8.01633 17.7009 8.45184 18.306 9.05698C18.9112 9.66212 19.3467 10.4156 19.5689 11.2421"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.1636 13.2681C11.0064 14.9912 12.4031 16.3815 14.13 17.2164C14.2563 17.2763 14.3961 17.3023 14.5355 17.2917C14.6749 17.2812 14.8092 17.2345 14.9251 17.1563L17.4677 15.4608C17.5802 15.3858 17.7096 15.34 17.8442 15.3277C17.9788 15.3153 18.1143 15.3367 18.2386 15.39L22.9955 17.4286C23.1571 17.4973 23.292 17.6166 23.3799 17.7685C23.4678 17.9205 23.5039 18.097 23.4828 18.2713C23.3324 19.4478 22.7584 20.5291 21.8682 21.3129C20.9779 22.0966 19.8326 22.529 18.6465 22.5291C14.9832 22.5291 11.4699 21.0738 8.87957 18.4835C6.28923 15.8931 4.83398 12.3799 4.83398 8.71656C4.83405 7.53049 5.26643 6.3851 6.05018 5.49487C6.83392 4.60464 7.91528 4.03061 9.09179 3.88026C9.26608 3.85916 9.44251 3.89529 9.5945 3.98318C9.74648 4.07108 9.86578 4.20598 9.93442 4.36758L11.9749 9.12861C12.0276 9.25176 12.0491 9.38605 12.0375 9.51952C12.0258 9.65299 11.9813 9.7815 11.9079 9.89361L10.2183 12.4753C10.1414 12.5914 10.0959 12.7255 10.0863 12.8645C10.0767 13.0035 10.1034 13.1425 10.1636 13.2681V13.2681Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="pop-inf-phone">
+                                    <div class="pop-inf-txt">
+                                        <a href="tel:+77476191499">+7 (747) -619 ‒14 ‒99</a>
+                                        <a href="tel:+77476191499">+7 (747) -619 ‒14 ‒99</a>
+                                        <a href="tel:+77476191499">+7 (747) -619 ‒14 ‒99</a>
+                                        <div class="pop-inf-txt-soc">
+                                            <a target="_blank" href="#"><img src="/img/icon/telegram-logo.svg" alt="ico telegram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/InstagramLogo.svg" alt="ico instagram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/whatsapp.svg" alt="ico watsap"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pop-inf-map">
+                                    <div class="pop-inf-txt">
+                                        <p>
+                                            улица Керуентау, 2/2, Мамыр м-н, Ауэзовский район, Алматы
+                                        </p>
+                                        <p>
+                                            3-й микрорайон, 20а,
+                                            3 м-н, Ауэзовский район, Алматы
+                                        </p>
+                                        <p>
+                                            пр-т Райымбека, 239/2 1 этаж
+                                            Жетысуский район, Алматы
+                                        </p>
+                                        <div class="pop-inf-txt-soc">
+                                            <a target="_blank" href="#"><img src="/img/icon/telegram-logo.svg" alt="ico telegram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/InstagramLogo.svg" alt="ico instagram"></a>
+                                            <a target="_blank" href="#"><img src="/img/icon/whatsapp.svg" alt="ico watsap"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--popup-contact--------------------------------------------------------->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--header-->
+    <!--offers-->
+    <section class="offer">
+        <div class="offer_slider">
+            <div class="offer_slider_itm">
+                <picture>
+                    <source srcset="/img/mob-offer-bg-sl1.png" type="image/png" media="(max-width: 490px)">
+                    <img width="100%" src="/img/bg-slider-1.png" alt="">
+                </picture>
+            </div>
+            <div class="offer_slider_itm">
+                <picture>
+                    <source srcset="/img/mob-offer-bg-sl2.png" type="image/png" media="(max-width: 490px)">
+                    <img width="100%" src="/img/bg-slider-2.png" alt="">
+                </picture>
+            </div>
+            <div class="offer_slider_itm">
+                <picture>
+                    <source srcset="/img/mob-offer-bg-sl1.png" type="image/png" media="(max-width: 490px)">
+                    <img width="100%" src="/img/bg-slider-1.png" alt="">
+                </picture>
+            </div>
+            <div class="offer_slider_itm">
+                <picture>
+                    <source srcset="/img/mob-offer-bg-sl2.png" type="image/png" media="(max-width: 490px)">
+                    <img width="100%" src="/img/bg-slider-2.png" alt="">
+                </picture>
+            </div>
+        </div>
+        <div class="offer_block">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-lg-12 position-relative">
+                        <div class="offer_block_cont">
+                            <div class="btn-slider-group">
+                                <span class="bt-next bt"><img src="/img/icon/chevron-left.svg" alt="slider arrow image"></span>
+                                <span class="bt-back bt"><img src="/img/icon/chevron-right.svg" alt="slider arrow image"></span>
+                            </div>
+                            <h1>
+                                ТехАвтоЛомбард:
+                                <span>быстрые займы</span> в Алматы 
+                                и Алматинской области
+                            </h1>
+                            <p>Получите за 10 минут от 5 000 до 21 000 000 тенге</p>
+                            <a href="#" class="btn-all btn-popup-manager">Оценить имущество по WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--offers-->
+    <!--advantage-->
+    <section id="advantage" class="advantage page-section-1">
+        <div class="advantage_cards">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="advantage_cards-cont">
+                            <div class="advantage_cards-itm">
+                                <img src="/img/icon/time.svg" alt="">
+                                <p>5 минут на оформление займа</p>
+                            </div>
+                            <div class="advantage_cards-itm">
+                                <img src="/img/icon/keys.svg" alt="">
+                                <p>Гарантия сохранности вашего имущества</p>
+                            </div>
+                            <div class="advantage_cards-itm">
+                                <img src="/img/icon/procent.svg" alt="">
+                                <p>Фиксированный процент</p>
+                            </div>
+                            <div class="advantage_cards-itm">
+                                <img src="/img/icon/like.svg" alt="">
+                                <p>Индивидуальные условия</p>
+                            </div>
+                            <div class="advantage_cards-itm">
+                                <img src="/img/icon/home.svg" alt="">
+                                <p>Заем до 80% от стоимости залога </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="advantage_title">
+                        <h2><span>НАШИ</span> Преимущества</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="advantage_content">
+            <div class="advantage-paralax1">
+                <img class="phone1" src="/img/adwentage-parallax-1.png" alt="">
+            </div>
+            <div class="advantage-paralax2">
+                <img class="phone2" src="/img/adwentage-parallax-2.png" alt="">
+            </div>
+            <div data-video-id="AKWMOmWwSLk" class="advantage_video-btn">
+                <div class="advantage_video-sr">
+                    <img src="/img/icon/video-btn-ico.svg" alt="video play icon">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="advantage_shell-cont">
+                        <div class="advantage_content-itm">
+                            <h4><span>01</span>Скорость оформления</h4>
+                            <p>
+                                – Вы можете оформить микрокредит под залог менее чем за 5 минут. 
+                                – Все действия выполняются прямо на сайте 
+                                – вам не нужно выходить из дома, чтобы посмотреть итоговую стоимость имущества.
+                            </p>
+                        </div>
+                        <div class="advantage_content-itm">
+                            <h4><span>02</span>Высокая оценка вещей</h4>
+                            <p>
+                                – Ваше имущество оценивается нами на 10% выше, чем в большинстве ломбардов в 
+                                Алмате и  Алматинской области.
+                                – Мы выплатим вам до 80% от рыночной стоимости предметов. 
+                                Вы можете делать неограниченное количество залогов по имуществу.
+                            </p>
+                        </div>
+                        <div class="advantage_content-itm">
+                            <h4><span>03</span>Быстрый отклик</h4>
+                            <p>
+                                – Мы ответим на вашу заявку в кратчайшие сроки. 
+                                – Ожидание ответа займет не более 5 минут, результат будет отправлен 
+                                вам по указанному номеру телефона. 
+                                – Заявки на получение займов принимаются круглосуточно.
+                            </p>
+                        </div>
+                        <div class="advantage_content-itm">
+                            <h4><span>04</span>Безопасность сделок</h4>
+                            <p>
+                                – Наш ломбард легально работает в городе Алматы.
+                                – Все совершенные сделки с клиентами полностью прозрачны, выплата 
+                                в удобной форме ‒ на счет или наличными. 
+                                – У ТехАвтоЛомбарда есть лицензия на осуществление микрофинансовой 
+                                деятельности на территории Казахстана.
+                            </p>
+                        </div>
+                        <div class="advantage_content-itm">
+                            <h4><span>05</span>Проценты по кредитам</h4>
+                            <p>
+                                – Мы даем займы по доступным ставкам ‒ от 0,12 % 
+                                в сутки. 
+                                – Если платежи были просрочены, вы можете сделать перезалог или провести пролонгацию. 
+                                – Пени не действует для клиента в случае просрочки платежей, мы можем продлить срок платежа на 35 дней.
+                                – Минимальная переплата – 125 тг.
+                            </p>
+                        </div>
+                        <div class="advantage_content-itm advantage_content-itm-end" >
+                            <h4><span>06</span>Бонусы</h4>
+                            <p>
+                                – Для постоянных клиентов ломбарда‒ повышенная оценка техники и ювелирных изделий.
+                            </p>
+                            <img src="/img/icon/call-center-phone2.png" alt="image phone">
+                            <a class="btn-all btn-popup-manager">Получить консультацию</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--advantage-->
+    <!--accept-->
+    <section id="accept" class="accept page-section-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="accept_title">
+                        <h2>Мы принимаем и продаём</h2>
+                        <p>Получите за 10 минут от 5 000 до 21 000 000 тенге</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accept_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="accept_grid">
+                            <div class="accept_grid-item">
+                                <div class="accept_grid-img">
+                                    <img src="/img/accept_grid-item1.png" alt="accept item image">
+                                </div>
+                                <div class="accept_grid-txt">
+                                    <h4>Золотые изделия</h4>
+                                    <p>
+                                        кулоны, серьги, обручальные 
+                                        и свадебные кольца, браслеты, цепи и др. 
+                                        украшения, подвесы, запонки, булавки и прочее
+                                    </p>
+                                    <a href="#" class="btn-all btn-popup-manager">Узнать условия</a>
+                                </div>
+                            </div>
+                            <div class="accept_grid-item">
+                                <div class="accept_grid-img">
+                                    <img src="/img/accept_grid-item2.png" alt="accept item image">
+                                </div>
+                                <div class="accept_grid-txt">
+                                    <h4>Гаджеты</h4>
+                                    <p>
+                                        летательные дроны, смарт-часы, 
+                                        цифровые видео- и фотоаппараты
+                                    </p>
+                                    <a href="#" class="btn-all btn-popup-manager">Узнать условия</a>
+                                </div>
+                            </div>
+                            <div class="accept_grid-item">
+                                <div class="accept_grid-img">
+                                    <img src="/img/accept_grid-item3.png" alt="accept item image">
+                                </div>
+                                <div class="accept_grid-txt">
+                                    <h4>Цифровую технику</h4>
+                                    <p>
+                                        ноутбуки, смартфоны, мобильные телефоны, телевизоры
+                                    </p>
+                                    <a href="#" class="btn-all btn-popup-manager">Узнать условия</a>
+                                </div>
+                            </div>
+                            <div class="accept_grid-item">
+                                <div class="accept_grid-img">
+                                    <img src="/img/accept_grid-item4.png" alt="accept item image">
+                                </div>
+                                <div class="accept_grid-txt">
+                                    <h4>Автомобили</h4>
+                                    <p>
+                                        любые марки авто, которые имеют регистрационный учет Республики Казахстан
+                                    </p>
+                                    <a href="#" class="btn-all btn-popup-manager">Узнать условия</a>
+                                </div>
+                            </div>
+                            <div class="accept_grid-item">
+                                <div class="accept_grid-img">
+                                    <img src="/img/accept_grid-item5.png" alt="accept item image">
+                                </div>
+                                <div class="accept_grid-txt">
+                                    <h4>Игровые приставки</h4>
+                                    <p>
+                                        XBOX, Sony PlayStation любых версий
+                                    </p>
+                                    <a href="#" class="btn-all btn-popup-manager">Узнать условия</a>
+                                </div>
+                            </div>
+                            <div class="accept_grid-item">
+                                <div class="accept_grid-img">
+                                    <img src="/img/accept_grid-item6.png" alt="accept item image">
+                                </div>
+                                <div class="accept_grid-txt">
+                                    <h4>Золотой лом</h4>
+                                    <p>
+                                        любые изделия из золота, которые не подлежат использованию
+                                    </p>
+                                    <a href="#" class="btn-all btn-popup-manager">Узнать условия</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <div class="accept_content-submit">
+                            <a class="btn-all btn-popup-manager">Получить рассрочку<br> при покупке<img src="/img/icon/kaspi-ico.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--accept-->
+    <!--OurHelp-->
+    <div class="OurHelp">
+        <div class="OurHelp_paralax1">
+            <img class="dollar1" src="/img/dollar-1.png" alt="">
+        </div>
+        <div class="OurHelp_paralax2">
+            <img class="dollar2" src="/img/dollar-2.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="OurHelp_title">
+                        <h2>Когда <span>ломбард</span> может помочь </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="OurHelp_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="OurHelp_grid">
+                            <div class="OurHelp_grid-item">
+                                <div class="OurHelp_grid-itm-text">
+                                    <h4>
+                                        Деньги на развитие
+                                        и поддержку бизнеса. 
+                                    </h4>
+                                    <p>
+                                        ▪ Если вы хотите открыть свой бизнес или вам срочно нужны оборотные средства, 
+                                        обращайтесь к нам.
+                                    </p>
+                                    <p>
+                                        ▪ В залог можно оставить автомобиль с возможностью его 
+                                        выкупить в дальнейшем. Как правило, для этого достаточно прибыли от бизнеса.
+                                    </p>
+                                </div>
+                                <div class="OurHelp_grid-itm-image">
+                                    <img src="/img/OurHelp-itm-1.png" alt="OurHelp item image">
+                                </div>
+                            </div>
+                            <div class="OurHelp_grid-item">
+                                <div class="OurHelp_grid-itm-text">
+                                    <h4>
+                                        Обмен старой бытовой техники и гаджетов на новые модели.  
+                                    </h4>
+                                    <p>
+                                        ▪ Вместо старых моделей телефонов, игровых приставок, 
+                                        ноутбуков и прочих вещей мы дадим вам новую модель. 
+                                    </p>
+                                    <p>
+                                        ▪ Потребуется лишь доплатить небольшую сумму, чтобы получить новую модель техники. 
+                                        Если замена обойдется дешевле покупки техники 
+                                        клиента, мы отдадим вам разницу деньгами.
+                                    </p>
+                                </div>
+                                <div class="OurHelp_grid-itm-image">
+                                    <img src="/img/OurHelp-itm-2.png" alt="OurHelp item image">
+                                </div>
+                            </div>
+                            <div class="OurHelp_grid-item">
+                                <div class="OurHelp_grid-itm-text">
+                                    <h4>
+                                        Выкуп техники и ювелирных изделий.  
+                                    </h4>
+                                    <p>
+                                        ▪ Если вы хотите продать ненужную технику или изделия, сделанные из золота, 
+                                        мы можем их приобрести на выгодных для вас условиях. 
+                                    </p>
+                                    <p>
+                                        ▪ Мы предлагаем цену за вашу технику, автомобили и 
+                                        золотые изделия выше, чем конкуренты.
+                                    </p>
+                                </div>
+                                <div class="OurHelp_grid-itm-image">
+                                    <img src="/img/OurHelp-itm-3.png" alt="OurHelp item image">
+                                </div>
+                            </div>
+                            <div class="OurHelp_grid-item">
+                                <div class="OurHelp_grid-itm-text">
+                                    <h4>
+                                        Деньги до зарплаты.  
+                                    </h4>
+                                    <p>
+                                        ▪ Вы можете получить деньги сразу, не дожидаясь получения выплат на работе.
+                                    </p>
+                                    <p>
+                                        ▪ В качестве залога вы можете оставить любой предмет, который мы принимаем. 
+                                        От ценности вашего имущества будет зависеть полученная сумма денег.
+                                    </p>
+                                </div>
+                                <div class="OurHelp_grid-itm-image">
+                                    <img src="/img/OurHelp-itm-4.png" alt="OurHelp item image">
+                                </div>
+                            </div>
+                            <div class="OurHelp_grid-item">
+                                <div class="OurHelp_grid-itm-text">
+                                    <h4>
+                                        Выдача денег под залог на оплату за аренду.  
+                                    </h4>
+                                    <p>
+                                        ▪ Схема простая: вы оставите свое собственное имущество в залог, 
+                                        мы выдадим вам деньги для оплаты ежемесячных платежей, 
+                                        и вы отдаете арендодателю полученные деньги за определенный срок.
+                                    </p>
+                                </div>
+                                <div class="OurHelp_grid-itm-image">
+                                    <img src="/img/OurHelp-itm-5.png" alt="OurHelp item image">
+                                </div>
+                            </div>
+                            <div class="OurHelp_grid-item">
+                                <div class="OurHelp_grid-itm-text">
+                                    <h4>
+                                        Деньги на оплату платежей по долгам и кредитам.  
+                                    </h4>
+                                    <p>
+                                        ▪ В обмен на имущество мы предоставим вам деньги, чтобы покрыть платежи 
+                                        по займам и банковским кредитам на определенный срок. 
+                                    </p>
+                                    <p>
+                                        ▪ Информация о сделке будет полностью скрыта от посторонних 
+                                        лиц для сохранения вашей анонимности.
+                                    </p>
+                                </div>
+                                <div class="OurHelp_grid-itm-image">
+                                    <img src="/img/OurHelp-itm-6.png" alt="OurHelp item image">
+                                </div>
+                            </div>
+                            <div class="OurHelp_grid-item">
+                                <div class="OurHelp_grid-itm-text">
+                                    <h4>
+                                        Продажа техники и изделий.   
+                                    </h4>
+                                    <p>
+                                        ▪ Вы можете купить технику, находящуюся в отделениях ломбарда. 
+                                        Цена будет зависеть от фактической стоимости изделия, автомобиля, 
+                                        бытовой техники или гаджета, который будет выкуплен.
+                                    </p>
+                                    <p>
+                                        ▪ Выкуп можно производить в любой день одноразовым платежом, 
+                                        в рассрочку или через Kaspi Red.
+                                    </p>
+                                </div>
+                                <div class="OurHelp_grid-itm-image">
+                                    <img src="/img/OurHelp-itm-7.png" alt="OurHelp item image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="OurHelp_submit">
+                            <a class="btn-all btn-popup-manager">Получить консультацию</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--OurHelp-->
+    <!--working-->
+    <div id="working" class="working page-section-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="working_title">
+                        <h2>Схема работы с клиентом</h2>
+                        <p>Получите за 10 минут от 5 000 до 21 000 000 тенге</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="working_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="working_list">
+                            <div class="working_list-item">
+                                <div class="working_list-item_count">1</div>
+                                <div class="working_list-item_text">
+                                    <h4>Создание заявки</h4>
+                                    <p>
+                                        Укажите, какой предмет вы хотите отправить в ломбард, 
+                                        какую сумму получить за него. Свяжитесь с нами по  
+                                        WhatsApp или по телефону, и оценщик даст оценку вашему имуществу.
+                                    </p>
+                                </div>
+                                <div class="working_list-item_image">
+                                    <img src="/img/working_item-img1.png" alt="working item image">
+                                </div>
+                            </div>
+                            <div class="working_list-item">
+                                <div class="working_list-item_count">2</div>
+                                <div class="working_list-item_text">
+                                    <h4>Оценка имущества</h4>
+                                    <p>
+                                        По указанному телефону или контактам WhatsApp мы пришлем вам результат оценки. 
+                                        Ожидание займет не более 5 минут после отправки заявки. Оценка проводится 
+                                        объективно, без ориентировки на курс доллара и других иностранных валют.
+                                    </p>
+                                </div>
+                                <div class="working_list-item_image">
+                                    <img src="/img/working_item-img2.png" alt="working item image">
+                                </div>
+                            </div>
+                            <div class="working_list-item">
+                                <div class="working_list-item_count">3</div>
+                                <div class="working_list-item_text">
+                                    <h4>Визит в отделение</h4>
+                                    <p>
+                                        В любое удобное для вас рабочее время ломбарда вы приходите в 
+                                        ближайшее отделение ломбарда. При вашем согласии мы 
+                                        подписываем договор о сотрудничестве.
+                                    </p>
+                                </div>
+                                <div class="working_list-item_image">
+                                    <img src="/img/working_item-img3.png" alt="working item image">
+                                </div>
+                            </div>
+                            <div class="working_list-item">
+                                <div class="working_list-item_count">4</div>
+                                <div class="working_list-item_text">
+                                    <h4>Получение денег</h4>
+                                    <p>
+                                        После того как все операции завершены, а имущество передано в залог, 
+                                        вам выдаются деньги. Вы их можете получить в любой форме – 
+                                        наличными или на кредитную/дебетовую банковскую карту.
+                                    </p>
+                                </div>
+                                <div class="working_list-item_image">
+                                    <img src="/img/working_item-img4.png" alt="working item image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="working_info">
+                        <img width="100%" src="/img/working-bg.jpg" alt="background work image">
+                        <div class="working_info-cont">
+                            <h3>
+                                Мы работаем с клиентами круглосуточно, без выходных
+                            </h3>
+                            <p>+7 (747)-619‒14‒99</p>
+                            <a class="btn-all btn-popup-manager" href="#">Получить консультацию</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--working-->
+    <!--terms-->
+    <div id="terms" class="terms page-section-4">
+        <div class="terms_parallax1">
+            <img class="moped" src="/img/terms-parallax-1.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="terms_title">
+                        <h2><span>Условия</span> займа</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="terms_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="terms_grid">
+                            <div class="terms_grid_item">
+                                <div class="terms_grid_item_img">
+                                    <img src="/img/terms_grid_item1.png" alt="terms item image">
+                                </div>
+                                <div class="terms_grid_item_text">
+                                    <h4>Суммы займа</h4>
+                                    <p>
+                                        Мы выдаем клиентам от 5 000 до 21 000 000 тенге за раз
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="terms_grid_item">
+                                <div class="terms_grid_item_img">
+                                    <img src="/img/terms_grid_item2.png" alt="terms item image">
+                                </div>
+                                <div class="terms_grid_item_text">
+                                    <h4>Ставка на автомобили</h4>
+                                    <p>
+                                        Минимальная ставка – 0,12 % в день, пеня – 0,5 % в день
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="terms_grid_item">
+                                <div class="terms_grid_item_img">
+                                    <img src="/img/terms_grid_item3.png" alt="terms item image">
+                                </div>
+                                <div class="terms_grid_item_text">
+                                    <h4>Срок займа</h4>
+                                    <p>
+                                        Срок для займа под залог автомобиля составляет 12 месяцев с 
+                                        оплатой процентов каждые  30 дней, техники и золотых изделий – 35 дней
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="terms_grid_item">
+                                <div class="terms_grid_item_img">
+                                    <img src="/img/terms_grid_item4.png" alt="terms item image">
+                                </div>
+                                <div class="terms_grid_item_text">
+                                    <h4>Процентная ставка для изделий из золота</h4>
+                                    <p>
+                                        На золото процентная ставка составляет 0,5 % в день без пени в гарантийном периоде
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="terms_grid_item">
+                                <div class="terms_grid_item_img">
+                                    <img src="/img/terms_grid_item5.png" alt="terms item image">
+                                </div>
+                                <div class="terms_grid_item_text">
+                                    <h4>Ставка по технике</h4>
+                                    <p>
+                                        Ставка  по технике – от 0,7 % в день без пени в гарантийном периоде
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="terms_grid_item">
+                                <div class="terms_grid_item_img">
+                                    <img src="/img/terms_grid_item6.png" alt="terms item image">
+                                </div>
+                                <div class="terms_grid_item_text">
+                                    <h4>Средний уровень ежедневной ставки</h4>
+                                    <p>
+                                        Минимальный процент  ‒ 0,12 % в день от первоначальной суммы займа
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--terms-->
+    <!--real-calc-->
+    <section class="real-calc">
+        <div class="real-calc_parallax">
+            <img class="samokat" src="/img/real-calc_parallax.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="real-calc_title">
+                        <h2>реальные примеры расчетов</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="real-calc_cont">
+                        <div class="real-calc_item">
+                            <div class="real-calc_item-title">
+                                <h5>Авто сумма</h5>
+                            </div>
+                            <img width="100%" src="/img/calc_item1.png" alt="real calculate item image">
+                            <div class="real-calc_item-summ">
+                                <p>300 000тг×0.12%=360тг/сутки</p>
+                                <p>360тг×30 дней = 10 800тг</p>
+                            </div>
+                            <a class="btn-all btn-popup-manager">Получить точный расчет</a>
+                        </div>
+                        <div class="real-calc_item">
+                            <div class="real-calc_item-title">
+                                <h5>Золото</h5>
+                            </div>
+                            <img width="100%" src="/img/calc_item2.png" alt="real calculate item image">
+                            <div class="real-calc_item-summ">
+                                <p>10 000тг × 0.5% × 35= 1 750тг</p>
+                            </div>
+                            <a class="btn-all btn-popup-manager">Получить точный расчет</a>
+                        </div>
+                        <div class="real-calc_item">
+                            <div class="real-calc_item-title">
+                                <h5>Техника</h5>
+                            </div>
+                            <img width="100%" src="/img/calc_item3.png" alt="real calculate item image">
+                            <div class="real-calc_item-summ">
+                                <p>5 000тг×1%×35=1 750тг</p>
+                            </div>
+                            <a class="btn-all btn-popup-manager">Получить точный расчет</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--real-calc-->
+    <!--Questions-->
+    <div class="question">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="question_block">
+                        <div class="question_block_parall1">
+                            <img class="bounce" src="/img/question-parall-1.png" alt="">
+                        </div>
+                        <div class="question_block_parall2">
+                            <img class="bounce2" src="/img/question-parall-2.png" alt="">
+                        </div>
+                        <div class="question_title">
+                            <h2>Часто задаваемые <span>вопросы</span></h2>
+                        </div>
+                        <div class="question_content">
+                            <div class="question_content_item">
+                                <h5>Какие есть гарантии сохранности имущества?</h5>
+                                <div class="question_content_item-txt pop1">
+                                    <p>
+                                        Мы следим за сохранностью всех предметов в залоге. 
+                                        Если ваши вещи будут потеряны или повреждены, 
+                                        то мы вам вернем их полную стоимость либо отремонтируем.
+                                    </p>
+                                </div>
+                                <div class="question-close-itm" data-togle=".pop1">
+                                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="cl" d="M18.5057 17.3267L24.5974 11.3939C24.8641 11.1335 25.014 10.7803 25.014 10.412C25.014 10.0438 24.8641 9.69056 24.5974 9.43015C24.3306 9.16974 23.9688 9.02344 23.5915 9.02344C23.2143 9.02344 22.8525 9.16974 22.5857 9.43015L16.5082 15.3768L10.4307 9.43015C10.164 9.16974 9.80214 9.02344 9.42488 9.02344C9.04762 9.02344 8.68581 9.16974 8.41905 9.43015C8.15228 9.69056 8.00242 10.0438 8.00242 10.412C8.00242 10.7803 8.15228 11.1335 8.41905 11.3939L14.5107 17.3267L8.41905 23.2595C8.28627 23.3881 8.18087 23.541 8.10895 23.7096C8.03703 23.8781 8 24.0588 8 24.2414C8 24.424 8.03703 24.6047 8.10895 24.7732C8.18087 24.9418 8.28627 25.0947 8.41905 25.2233C8.55075 25.3529 8.70743 25.4558 8.88006 25.526C9.0527 25.5962 9.23786 25.6324 9.42488 25.6324C9.6119 25.6324 9.79706 25.5962 9.9697 25.526C10.1423 25.4558 10.299 25.3529 10.4307 25.2233L16.5082 19.2767L22.5857 25.2233C22.7174 25.3529 22.8741 25.4558 23.0467 25.526C23.2194 25.5962 23.4045 25.6324 23.5915 25.6324C23.7786 25.6324 23.9637 25.5962 24.1364 25.526C24.309 25.4558 24.4657 25.3529 24.5974 25.2233C24.7302 25.0947 24.8356 24.9418 24.9075 24.7732C24.9794 24.6047 25.0164 24.424 25.0164 24.2414C25.0164 24.0588 24.9794 23.8781 24.9075 23.7096C24.8356 23.541 24.7302 23.3881 24.5974 23.2595L18.5057 17.3267Z" fill="#303030"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="question_content_item">
+                                <h5>На какой срок выдаются займы?</h5>
+                                <div class="question_content_item-txt pop2">
+                                    <p>
+                                        Мы стараемся установить максимальный возможный по правилам 
+                                        срок погашения займа с процентами – 35 дней для техники и 12 
+                                        месяцев для автомобилей. Если время, предназначенное для 
+                                        выкупа вещей из залога, истекло, мы можем продлить срок. 
+                                        Если и этого продления оказывается недостаточно, 
+                                        вы можете провести перезалог или пролонгацию, 
+                                        в противном случае ломбард имеет право реализовать вещи.
+                                    </p>
+                                </div>
+                                <div class="question-close-itm" data-togle=".pop2">
+                                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="cl" d="M18.5057 17.3267L24.5974 11.3939C24.8641 11.1335 25.014 10.7803 25.014 10.412C25.014 10.0438 24.8641 9.69056 24.5974 9.43015C24.3306 9.16974 23.9688 9.02344 23.5915 9.02344C23.2143 9.02344 22.8525 9.16974 22.5857 9.43015L16.5082 15.3768L10.4307 9.43015C10.164 9.16974 9.80214 9.02344 9.42488 9.02344C9.04762 9.02344 8.68581 9.16974 8.41905 9.43015C8.15228 9.69056 8.00242 10.0438 8.00242 10.412C8.00242 10.7803 8.15228 11.1335 8.41905 11.3939L14.5107 17.3267L8.41905 23.2595C8.28627 23.3881 8.18087 23.541 8.10895 23.7096C8.03703 23.8781 8 24.0588 8 24.2414C8 24.424 8.03703 24.6047 8.10895 24.7732C8.18087 24.9418 8.28627 25.0947 8.41905 25.2233C8.55075 25.3529 8.70743 25.4558 8.88006 25.526C9.0527 25.5962 9.23786 25.6324 9.42488 25.6324C9.6119 25.6324 9.79706 25.5962 9.9697 25.526C10.1423 25.4558 10.299 25.3529 10.4307 25.2233L16.5082 19.2767L22.5857 25.2233C22.7174 25.3529 22.8741 25.4558 23.0467 25.526C23.2194 25.5962 23.4045 25.6324 23.5915 25.6324C23.7786 25.6324 23.9637 25.5962 24.1364 25.526C24.309 25.4558 24.4657 25.3529 24.5974 25.2233C24.7302 25.0947 24.8356 24.9418 24.9075 24.7732C24.9794 24.6047 25.0164 24.424 25.0164 24.2414C25.0164 24.0588 24.9794 23.8781 24.9075 23.7096C24.8356 23.541 24.7302 23.3881 24.5974 23.2595L18.5057 17.3267Z" fill="#303030"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="question_content_item">
+                                <h5>Какие факторы влияют на оценку стоимости предмета?</h5>
+                                <div class="question_content_item-txt pop3">
+                                    <p>
+                                        Когда мы оцениваем стоимость ваших вещей, мы принимаем 
+                                        во внимание следующие характеристики: внешний вид, 
+                                        дату производства, сохранность и работоспособность, 
+                                        спрос у покупателей, функционал и стоимость 
+                                        аналогов подобных предметов в продаже.
+                                    </p>
+                                </div>
+                                <div class="question-close-itm" data-togle=".pop3">
+                                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="cl" d="M18.5057 17.3267L24.5974 11.3939C24.8641 11.1335 25.014 10.7803 25.014 10.412C25.014 10.0438 24.8641 9.69056 24.5974 9.43015C24.3306 9.16974 23.9688 9.02344 23.5915 9.02344C23.2143 9.02344 22.8525 9.16974 22.5857 9.43015L16.5082 15.3768L10.4307 9.43015C10.164 9.16974 9.80214 9.02344 9.42488 9.02344C9.04762 9.02344 8.68581 9.16974 8.41905 9.43015C8.15228 9.69056 8.00242 10.0438 8.00242 10.412C8.00242 10.7803 8.15228 11.1335 8.41905 11.3939L14.5107 17.3267L8.41905 23.2595C8.28627 23.3881 8.18087 23.541 8.10895 23.7096C8.03703 23.8781 8 24.0588 8 24.2414C8 24.424 8.03703 24.6047 8.10895 24.7732C8.18087 24.9418 8.28627 25.0947 8.41905 25.2233C8.55075 25.3529 8.70743 25.4558 8.88006 25.526C9.0527 25.5962 9.23786 25.6324 9.42488 25.6324C9.6119 25.6324 9.79706 25.5962 9.9697 25.526C10.1423 25.4558 10.299 25.3529 10.4307 25.2233L16.5082 19.2767L22.5857 25.2233C22.7174 25.3529 22.8741 25.4558 23.0467 25.526C23.2194 25.5962 23.4045 25.6324 23.5915 25.6324C23.7786 25.6324 23.9637 25.5962 24.1364 25.526C24.309 25.4558 24.4657 25.3529 24.5974 25.2233C24.7302 25.0947 24.8356 24.9418 24.9075 24.7732C24.9794 24.6047 25.0164 24.424 25.0164 24.2414C25.0164 24.0588 24.9794 23.8781 24.9075 23.7096C24.8356 23.541 24.7302 23.3881 24.5974 23.2595L18.5057 17.3267Z" fill="#303030"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="question_content_item">
+                                <h5>Кто может воспользоваться услугами ТехАвтоЛомбарда?</h5>
+                                <div class="question_content_item-txt pop4">
+                                    <p>
+                                        В ломбард могут обратиться люди в возрасте от 18 лет, имеющие гражданство Казахстана или 
+                                        вид на жительство и ИНН, можно предъявить документы в цифровом виде с eGov.
+                                    </p>
+                                </div>
+                                <div class="question-close-itm" data-togle=".pop4">
+                                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="cl" d="M18.5057 17.3267L24.5974 11.3939C24.8641 11.1335 25.014 10.7803 25.014 10.412C25.014 10.0438 24.8641 9.69056 24.5974 9.43015C24.3306 9.16974 23.9688 9.02344 23.5915 9.02344C23.2143 9.02344 22.8525 9.16974 22.5857 9.43015L16.5082 15.3768L10.4307 9.43015C10.164 9.16974 9.80214 9.02344 9.42488 9.02344C9.04762 9.02344 8.68581 9.16974 8.41905 9.43015C8.15228 9.69056 8.00242 10.0438 8.00242 10.412C8.00242 10.7803 8.15228 11.1335 8.41905 11.3939L14.5107 17.3267L8.41905 23.2595C8.28627 23.3881 8.18087 23.541 8.10895 23.7096C8.03703 23.8781 8 24.0588 8 24.2414C8 24.424 8.03703 24.6047 8.10895 24.7732C8.18087 24.9418 8.28627 25.0947 8.41905 25.2233C8.55075 25.3529 8.70743 25.4558 8.88006 25.526C9.0527 25.5962 9.23786 25.6324 9.42488 25.6324C9.6119 25.6324 9.79706 25.5962 9.9697 25.526C10.1423 25.4558 10.299 25.3529 10.4307 25.2233L16.5082 19.2767L22.5857 25.2233C22.7174 25.3529 22.8741 25.4558 23.0467 25.526C23.2194 25.5962 23.4045 25.6324 23.5915 25.6324C23.7786 25.6324 23.9637 25.5962 24.1364 25.526C24.309 25.4558 24.4657 25.3529 24.5974 25.2233C24.7302 25.0947 24.8356 24.9418 24.9075 24.7732C24.9794 24.6047 25.0164 24.424 25.0164 24.2414C25.0164 24.0588 24.9794 23.8781 24.9075 23.7096C24.8356 23.541 24.7302 23.3881 24.5974 23.2595L18.5057 17.3267Z" fill="#303030"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Questions-->
+    <!--certificates-->
+    <div id="certificates" class="certificates page-section-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="certificates_title">
+                        <h2><span>Сертификаты</span> и благодарственные письма</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mb-3">
+                    <div class="certificate-slider">
+                        <div class="sertificate-sl-itm">
+                            <a data-fancybox="gallery" href="/img/licenzi.jpg">
+                                <img class="pop-preview-image"  src="/img/licenzi.jpg" alt="sertificate image">
+                            </a>
+                        </div>
+                        <div class="sertificate-sl-itm">
+                            <a data-fancybox="gallery" href="/img/licenzi.jpg">
+                                <img class="pop-preview-image"  src="/img/licenzi.jpg" alt="sertificate image">
+                            </a>
+                        </div>
+                        <div class="sertificate-sl-itm">
+                            <a data-fancybox="gallery" href="/img/licenzi.jpg">
+                                <img class="pop-preview-image"  src="/img/licenzi.jpg" alt="sertificate image">
+                            </a>
+                        </div>
+                        <div class="sertificate-sl-itm">
+                            <a data-fancybox="gallery" href="/img/licenzi.jpg">
+                                <img class="pop-preview-image"  src="/img/licenzi.jpg" alt="sertificate image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--certificates-->
+    <!--call-center-->
+    <div class="call-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="call-center_cont">
+                        <img width="100%" src="/img/call-center-bg.jpg" alt="icon call center phone">
+                        <div class="call-center_text">
+                            <h3>Номер круглосуточного кол-центра</h3>
+                            <p >+7 (747)-619‒14‒99</p>
+                            <a class="btn-all btn-popup-manager">Получить консультацию</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--call-center-->
+    <!--my-client-->
+    <div id="my-client" class="my-client page-section-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="my-client_title">
+                        <h2>Реальные отзывы наших клиентов</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mb-3">
+                    <div class="my-client-slider">
+                        <div class="my-client-sl-itm">
+                            <a data-fancybox="gallery" href="/img/my-client1.jpg">
+                                <img class="pop-preview-image"  src="/img/my-client1.jpg" alt="sertificate image">
+                            </a>
+                        </div>
+                        <div class="my-client-sl-itm">
+                            <a data-fancybox="gallery" href="/img/my-client2.jpg">
+                                <img class="pop-preview-image"  src="/img/my-client2.jpg" alt="sertificate image">
+                            </a>
+                        </div>
+                        <div class="my-client-sl-itm">
+                            <a data-fancybox="gallery" href="/img/my-client3.jpg">
+                                <img class="pop-preview-image"  src="/img/my-client3.jpg" alt="sertificate image">
+                            </a>
+                        </div>
+                        <div class="my-client-sl-itm">
+                            <a data-fancybox="gallery" href="/img/my-client4.jpg">
+                                <img class="pop-preview-image"  src="/img/my-client4.jpg" alt="sertificate image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--my-client-->
+    <!--partners-->
+    <div class="partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="partners_title">
+                        <h2>Наши партнеры</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="partners_cont">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <div class="partners_flex">
+                            <div class="partners_flex-item">
+                                <img src="/img/logo-kaspi.png" alt="logo kaspi">
+                            </div>
+                            <div class="partners_flex-item">
+                                <img src="/img/logo-afr.png" alt="logo afr">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--partners-->
+    <!--my-maps-->
+    <div class="my-maps">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="my-maps_title">
+                        <h2>Где мы находимся?</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my-maps_map">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="my-maps_content">
+                            <div class="my-maps-col my-maps_map-img">
+                                <img width="100%" src="/img/map-image.jpg" alt="">
+                            </div>
+                            <div class="my-maps-col my-maps_vidjet-map">
+                                <a class="dg-widget-link" href="http://2gis.kz/almaty/profiles/70000001061220039,70000001041687856,70000001039766998/center/76.86344146728517,43.23044585977809/zoom/12?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Алматы</a><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":'100%',"height":'100%',"borderColor":"#a3a3a3","pos":{"lat":43.23044585977809,"lon":76.86344146728517,"zoom":12},"opt":{"city":"almaty"},"org":[{"id":"70000001061220039"},{"id":"70000001041687856"},{"id":"70000001039766998"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--my-maps-->
+    <!--footer-->
+    <section class="footer page-section-7">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer_content">
+                        <div class="footer_logo">
+                            <img src="/img/Logo.png" alt="logo ">
+                            <div class="footer_logo-soc">
+                                <a target="_blank" href="#">Мы в социальных сетях: <img src="/img/icon/InstagramLogo.svg" alt="link image instagram"></a>
+                            </div>
+                        </div>
+                        <div class="footer_address">
+                            <div class="footer_address-itm">
+                                <img src="/img/icon/MapPin.svg" alt="ico map">
+                                <p>улица Керуентау, 2/2, Мамыр м-н, Ауэзовский район, Алматы</p>
+                            </div>
+                            <div class="footer_address-itm">
+                                <img src="/img/icon/MapPin.svg" alt="ico map">
+                                <p>пр-т Райымбека, 239/2 1 этаж Жетысуский район, Алматы</p>
+                            </div>
+                            <div class="footer_address-itm">
+                                <img src="/img/icon/MapPin.svg" alt="ico map">
+                                <p>3-й микрорайон, 20а, 3 м-н, Ауэзовский район, Алматы</p>
+                            </div>
+                            <div class="footer_address-itm">
+                                <a href="tel:+77078147829">+7 707-814‒78‒29</a>
+                            </div>
+                        </div>
+                        <div class="footer_submit">
+                            <div class="footer_submit-whatsApp">
+                                <img class="ico-WhatsApp" src="/img/icon/WhatsApp.png" alt="link image WhatsApp">
+                                <a class="header_phone_tel" href="https://wa.me/77476191499">+7 (747)-619‒14‒99</a>
+                            </div>
+                            <a class="btn-all btn-popup-manager">Оценить имущество</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer_menu-cont">
+                            <ul class="ul-one">
+                                <li><a data-goto=".page-section-1" class="menu-link">Преимущества</a></li>
+                                <li><a data-goto=".page-section-2" class="menu-link">Мы принимаем</a></li>
+                                <li><a data-goto=".page-section-3" class="menu-link">Схема работы</a></li>
+                                <li><a data-goto=".page-section-4" class="menu-link">Условия</a></li>
+                                <li><a data-goto=".page-section-5" class="menu-link">Клиенты</a></li>
+                                <li><a data-goto=".page-section-6" class="menu-link">Сертификаты</a></li>
+                            </ul>
+                            <ul class="ul-two">
+                                <li><a href="/reports.html">Финансовая отчетность</a></li>
+                                <li><a href="/agreements.html">Договора</a></li>
+                                <li><a href="/about.html">О нас</a></li>
+                                <li><a target="_blank" href="/img/licenzi.jpg">Лицензия</a></li>
+                                <li><a target="_blank" href="#">Отчеты</a></li>
+                                <li><a target="_blank" href="#">Бухгалтерский баланс</a></li>
+                            </ul>
+                            <ul class="ul-three">
+                                <li><a target="_blank" href="#">Правила предоставления микрокредитов</a></li>
+                                <li><a target="_blank" href="#">Стандартный Договор до 50 МРП LLP</a></li> 
+                                <li><a target="_blank" href="#">Стандартный Договор до 50МРП ТМ</a></li> 
+                                <li><a target="_blank" href="#">Стандартный Договор свыше 50 МРП LLP</a></li>
+                                <li><a target="_blank" href="#">Стандартный Договор свыше 50 МРП ТМ</a></li>   
+                                <li><a target="_blank" href="#">Политика конфиденциальности</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_licenzi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer_licenzi-text">
+                            <p>
+                                Лицензия:  02.21.0045.L. от 26.03.2021<br>
+                                Настоящая лицензия дает право на осуществление микрофинансовой деятельности Деятельность ломбарда ТOO "Тех авто Ломбард"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyraite-bl">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer_copyraite">
+                            <span>© 2022, «ТехАвтоЛомбард»</span>
+                            <div class="web-studio">
+                                <span>© Все права защищены</span>
+                                <a target="_blank" href="https://xn--b1adeadlc3bdjl.kz/sozdanie-sajtov/lendingi/"><span>Разработка веб студии</span><img width="100" src="/img/prodvijenie-web.png" alt="prodvijenie.kz"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+
+    <!----container to Top------->
+    <div class="to-top">
+        <a  href="#" class="menu-link" data-goto=".offer"><img width="25" src="/img/icon/To-top-ico.svg" alt="icon to top"></a>
+    </div>
+    <!----container to Top------->
+    <!--------container window popup manager--------->
+    <div class="popup-manager">
+        <div class="window-popup">
+            <div data-popup=".popup-manager" class="btn-close">
+                <svg class="close-svg" stroke="#414042" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L16 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 1L1 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <p>Оставьте заявку и наш менеджер свяжется с Вами в течение 5 минут</p>
+            <form action="#">
+                <input type="text" placeholder="Ваше имя" required>
+                <input class="inp-tel phone" type="tel" placeholder="+7-(___)-___-__-__" required>
+                <img src="/img/submit-img.png" alt="submit image">
+                <button type="submit" class="btn-all">Оценить имущество</button>
+            </form>
+        </div>
+    </div>
+    <!--------container window popup manager--------->
+    <!--------container window popup accepted--------->
+    <div class="popup-accepted">
+        <div class="window-popup">
+            <div data-popup=".popup-accepted" class="btn-close">
+                <svg class="close-svg" stroke="#414042" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L16 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 1L1 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <p>Спасибо Ваша<br> заявка принята!</p>
+            <img width="250" src="/img/accept-image.png" alt="accept icon">
+        </div>
+    </div>
+    <!--------container window popup accepted--------->
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="/libs/jquery/jquery.maskedinput.min.js"></script>
+    <script src="/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/libs/slick/slick.min.js"></script>
+    <script src="/libs/fancybox/jquery.fancybox.min.js"></script>
+    <script src="/libs/animate/ScrollTrigger.js"></script>
+    <script src="/libs/animate/gsap.min.js"></script>
+    <script src="/libs/ModalVideofix-master/jquery-modal-video.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
